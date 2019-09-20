@@ -37,9 +37,16 @@ public class RulesOf6005 {
             boolean citingYourSource, boolean implementationRequired) {
         
         // TODO: Fill in this method, then remove the exception
-        
-        System.out.println("fuck it");
-        return writtenByYourself;
+    	boolean ans = false;
+    	if (writtenByYourself) {
+    		ans = true;
+    	} else if (availableToOthers && writtenAsCourseWork && citingYourSource) {
+    		ans = true;
+    	} else {
+    		ans = false;
+    	}
+
+        return ans;
     }
     
     /**
