@@ -1,0 +1,20 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+    "Compile": "make Server",
+    "Run Chat Server": "make runServer",
+    "Run Chat Client": "java -jar client/hw05-client.jar &",
+    "Check Style": "make checkstyle",
+    "Test Project": "make test",
+    "Clean Project": "make clean",
+    "Prettify File": "java -jar /home/codio/bin/google-java-format-1.5-all-deps.jar --aosp --replace {{filepath}}",
+    "Zip Project": "make zip"
+  },
+
+// Preview button configuration
+  "preview": {
+        "PennPals": "https://{{domain3000}}/"
+  }
+}
