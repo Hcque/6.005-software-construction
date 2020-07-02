@@ -1,0 +1,5 @@
+name:Alien, stars: Yaphet Kotto, stars:Sigourney Weaver, stars: Harry Dean Stanton
+name:Repo Man, stars: Emilio Estevez, stars:Harry Dean Stanton
+name:The Truth About Cats and Dogs, stars: Janeane Garofalo, stars:Uma Thurman
+name:Sense and Sensibility, stars:Emma Thompson, stars:Hugh Grant
+name:Midnight Run, stars: Yaphet Kotto, stars: Charles Grodin, stars: Robert Deniro
